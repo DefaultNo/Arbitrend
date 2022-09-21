@@ -1330,25 +1330,25 @@ body.lock {
 
 @-webkit-keyframes resizing-2 {
   0% {
-    -webkit-transform: translateX(-100%);
-            transform: translateX(-100%);
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
   }
 
   100% {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
   }
 }
 
 @keyframes resizing-2 {
   0% {
-    -webkit-transform: translateX(-100%);
-            transform: translateX(-100%);
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
   }
 
   100% {
-    -webkit-transform: translateX(100%);
-            transform: translateX(100%);
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
   }
 }
 
@@ -2161,6 +2161,10 @@ body.lock {
             writing-mode: initial;
     -webkit-animation: resizing-2 10s infinite linear;
             animation: resizing-2 10s infinite linear;
+  }
+
+  .deals__transform-text {
+    width: 700px;
   }
 
   .tabs-deals__list {
