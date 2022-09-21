@@ -1,0 +1,16 @@
+<svg width="71" height="64" viewBox="0 0 71 64" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<path d="M32.0395 62.7661C49.1383 62.7661 62.9996 48.9049 62.9996 31.8061C62.9996 14.7074 49.1383 0.846191 32.0395 0.846191C14.9408 0.846191 1.07953 14.7074 1.07953 31.8061C1.07953 48.9049 14.9408 62.7661 32.0395 62.7661Z" stroke="#01F813" stroke-width="0.5"/>
+<path d="M39.301 62.7553C56.3935 62.7553 70.2498 48.8991 70.2498 31.8066C70.2498 14.7141 56.3935 0.85791 39.301 0.85791C22.2085 0.85791 8.35223 14.7141 8.35223 31.8066C8.35223 48.8991 22.2085 62.7553 39.301 62.7553Z" fill="#0D360D"/>
+<mask id="mask0_106_10" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="26" y="19" width="26" height="23">
+<rect x="26.7499" y="19.75" width="24.75" height="21.75" fill="url(#pattern0)"/>
+</mask>
+<g mask="url(#mask0_106_10)">
+<rect x="24" y="18" width="33" height="26" fill="#01F813"/>
+</g>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_106_10" transform="scale(0.030303 0.0344828)"/>
+</pattern>
+<image id="image0_106_10" width="33" height="29" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAdCAYAAAAkXAW5AAABmklEQVRIie3XPWsVQRQG4Of6VUTUSpGQQiJoKi3t0gp+NKlF4m8I2KdOIII/wjaNP0AEbSxFRRDFytgEg6KJSVaOzMIwrNfs9Q6muC8suzPncObdM3Nezgzmf8yrhCks4Rr2sjWO4AkeYjsmjtVigOVE4kNauMU+bmGAFYVx3LiBu5jFheyJ8X3czFNTC0ex8wfbTspEdRLNkPiDfFCTxIExIdHiX0p0qhjHPn9PJdgLo2TiLF7gW/F8xRcs9A04Siaixs/jDnaz+e1U+w+wXpvENJ7jUUfq3+Ne3wyPsh3NENvgL/axkRg7JiRaHEqxuoxFnMjmWhFaxWZtEmfwJnVBe4XfcdzGldokruNTysZWh2+TGpKxIz8T8bc/CxUsUeUM5UGbstnoQG8h6kviv2FCosWhI3HQQzesc2qyOE2H3pS+vxHXwOgLQoROpWblbcdCMb6abOET+FgQj++TuIiXuISNpLJ51YVfdGen8S4kIcQqWrLPeJXeEaTcprjIrKXAz1KgmcKnlffHmMNTnEuLlX6vkyDOYvcXxDFRiIYAdaYAAAAASUVORK5CYII="/>
+</defs>
+</svg>
