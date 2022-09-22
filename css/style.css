@@ -503,6 +503,26 @@ body.lock {
   }
 }
 
+.payments__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 30px;
+}
+
+.payments__item {
+  opacity: 0.2;
+  -webkit-transition: all 0.2s ease 0s;
+  -o-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s;
+}
+
 .payments__item img {
   max-width: 100%;
 }
@@ -695,7 +715,7 @@ body.lock {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.item-program._active .item-program__name {
+.item-program._spoiler-active .item-program__name {
   color: rgba(1, 248, 19, 0.8);
 }
 
@@ -2285,6 +2305,20 @@ body.lock {
   }
 }
 
+@media (max-width: 600px) {
+  .payments__container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .payments__item {
+    max-width: 100px;
+  }
+}
+
 @media (max-width: 560px) {
   .quality__body {
     -ms-grid-columns: 1fr;
@@ -2321,6 +2355,10 @@ body.lock {
     -webkit-transform: translateX(0);
         -ms-transform: translateX(0);
             transform: translateX(0);
+  }
+
+  .payments__item:hover {
+    opacity: 100;
   }
 
   .consultations-education__button:hover {
