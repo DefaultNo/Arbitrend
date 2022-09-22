@@ -165,6 +165,7 @@
                     if (!spoilersBlock.querySelectorAll("._slide").length) {
                         if (oneSpoiler && !spoilerTitle.classList.contains("_spoiler-active")) hideSpoilersBody(spoilersBlock);
                         spoilerTitle.classList.toggle("_spoiler-active");
+                        if (spoilerTitle.closest(".item-program")) spoilerTitle.closest(".item-program").classList.toggle("_spoiler-active");
                         _slideToggle(spoilerTitle.nextElementSibling, spoilerSpeed);
                     }
                     e.preventDefault();
